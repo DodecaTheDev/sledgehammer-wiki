@@ -1,7 +1,7 @@
 # Sledgehammer Guidebook
 A wiki for how to use Sledge to it's maximum capacity.
 
-# FUNCTIONS
+# Functions
 ### These are functions that you can use in text input boxes.
 
 ## random(x,y)
@@ -35,7 +35,7 @@ snap_to_grid(random(0,50),25)
 ##### Would return 0, 25, or 50.
 
 
-# VARIABLES
+# Variables
 ### These are variables that you can use in text input boxes.
 
 ## Group Variables
@@ -67,3 +67,12 @@ snap_to_grid(random(0,50),25)
 
 ### plr_dir
 ##### Returns the angle towards the nearest player
+
+# Params
+### {TEXT} - String input, compatible with Functions and Variables.
+### {BOOLEAN} - Binary (True or False).
+### {DROPDOWN} - A predetermined set of options.
+### {ENEMY} - A spawned enemy with it's params.
+### {SPRITE} - An image to be used.
+### {COLOR} - A color with a picker.
+
