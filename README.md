@@ -76,3 +76,138 @@ snap_to_grid(random(0,50),25)
 ### {SPRITE} - An image to be used.
 ### {COLOR} - A color with a picker.
 
+# Enemies
+
+## Groups
+
+## Enemy Group
+###### Spawns a single object many times
+### x
+#### {TEXT}
+##### The x position to spawn at (can be referred to in children using x or xpos) 
+
+##
+
+### y
+#### {TEXT}
+##### The y position to spawn at (can be referred to in children using y or ypos) 
+
+##
+
+### spawn
+#### {ENEMY}
+##### The enemy to spawn
+
+##
+
+### spawn amount
+#### {TEXT}
+##### The amount of the enemy to spawn (can be referred to in children using spawn_amount)
+
+##
+
+### spawn delay
+#### {TEXT}
+##### The delay between spawning instances
+
+
+
+## Parent Group
+###### Spawns a pair of objects many times
+### x
+#### {TEXT}
+##### The x position to spawn at (can be referred to in children using x or xpos) 
+
+##
+
+### y
+#### {TEXT}
+##### The y position to spawn at (can be referred to in children using y or ypos) 
+
+##
+
+### spawn one
+#### {ENEMY}
+##### The first enemy to spawn
+
+##
+
+### spawn two
+#### {ENEMY}
+##### The second enemy to spawn
+
+##
+
+### spawn amount
+#### {TEXT}
+##### The amount of the enemy to spawn (can be referred to in children using spawn_amount)
+
+##
+
+### spawn delay
+#### {TEXT}
+##### The delay between spawning instances
+
+
+
+## Probability Spawn
+###### Chooses between two objects to spawn
+### x
+#### {TEXT}
+##### The x position to spawn at (can be referred to in children using x or xpos) 
+
+##
+
+### y
+#### {TEXT}
+##### The y position to spawn at (can be referred to in children using y or ypos) 
+
+##
+
+### spawn one
+#### {ENEMY}
+##### The first possible spawn
+
+##
+
+### spawn two
+#### {ENEMY}
+##### The second possible spawn
+
+##
+
+### probability
+#### {TEXT}
+##### The chance to spawn
+
+
+
+## Sequence
+###### Spawns an object in a sequence
+### x
+#### {TEXT}
+##### The x position to spawn at (can be referred to in children using x or xpos) 
+
+##
+
+### y
+#### {TEXT}
+##### The y position to spawn at (can be referred to in children using y or ypos) 
+
+##
+
+### spawn one
+#### {ENEMY}
+##### The first enemy to spawn
+
+##
+
+### spawn two
+#### {ENEMY}
+##### The second enemy to spawn
+
+##
+
+### delay
+#### {TEXT}
+##### The delay between spawning *this* instance
