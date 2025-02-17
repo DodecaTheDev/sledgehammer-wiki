@@ -88,8 +88,8 @@ Spawns a single object multiple times.
 - **`x`** `{TEXT}` - The x position to spawn at (can be referred to in children using `x` or `xpos`).
 - **`y`** `{TEXT}` - The y position to spawn at (can be referred to in children using `y` or `ypos`).
 - **`spawn`** `{ENEMY}` - The enemy to spawn.
-- **`spawn_amount`** `{TEXT}` - The number of enemies to spawn (can be referred to in children using `spawn_amount`).
-- **`spawn_delay`** `{TEXT}` - The delay between spawning instances.
+- **`spawn amount`** `{TEXT}` - The number of enemies to spawn (can be referred to in children using `spawn_amount`).
+- **`spawn delay`** `{TEXT}` - The delay between spawning instances.
 
 ---
 
@@ -98,10 +98,10 @@ Spawns a pair of objects multiple times.
 
 - **`x`** `{TEXT}` - The x position to spawn at.
 - **`y`** `{TEXT}` - The y position to spawn at.
-- **`spawn_one`** `{ENEMY}` - The first enemy to spawn.
-- **`spawn_two`** `{ENEMY}` - The second enemy to spawn.
-- **`spawn_amount`** `{TEXT}` - The number of enemies to spawn.
-- **`spawn_delay`** `{TEXT}` - The delay between spawning instances.
+- **`spawn one`** `{ENEMY}` - The first enemy to spawn.
+- **`spawn two`** `{ENEMY}` - The second enemy to spawn.
+- **`spawn amount`** `{TEXT}` - The number of enemies to spawn.
+- **`spawn delay`** `{TEXT}` - The delay between spawning instances.
 
 ---
 
@@ -110,8 +110,8 @@ Chooses between two objects to spawn.
 
 - **`x`** `{TEXT}` - The x position to spawn at.
 - **`y`** `{TEXT}` - The y position to spawn at.
-- **`spawn_one`** `{ENEMY}` - The first possible spawn.
-- **`spawn_two`** `{ENEMY}` - The second possible spawn.
+- **`spawn one`** `{ENEMY}` - The first possible spawn.
+- **`spawn two`** `{ENEMY}` - The second possible spawn.
 - **`probability`** `{TEXT}` - The chance to spawn.
 
 ---
@@ -121,7 +121,7 @@ Spawns an object in a sequence.
 
 - **`x`** `{TEXT}` - The x position to spawn at.
 - **`y`** `{TEXT}` - The y position to spawn at.
-- **`spawn_one`** `{ENEMY}` - The first enemy to spawn.
-- **`spawn_two`** `{ENEMY}` - The second enemy to spawn.
+- **`spawn one`** `{ENEMY}` - The first enemy to spawn.
+- **`spawn two`** `{ENEMY}` - The second enemy to spawn.
 - **`delay`** `{TEXT}` - The delay between spawning *this* instance.
 
