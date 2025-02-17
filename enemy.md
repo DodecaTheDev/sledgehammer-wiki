@@ -1,20 +1,12 @@
 # ENEMIES
 
-## Global Properties
-
-### spawn time
-#### The point in which the enemy will spawn on the timeline in milliseconds
-
-
-### name
-#### The name of the enemy. Extremely useful for keeping track of nested enemies when using tech
-
+## Enemy-specific Properties
 
 ### x
-#### The absolute “x” starting position of the object. Can be overridden by: Skew beam , beam , Bomb
+##### The absolute “x” starting position of the object. Can be overridden by: Skew beam , beam , Bomb
 
 ### y
-#### The absolute “y” starting position of the object. Can also be overridden by the same objects as the X coordinate property
+##### The absolute “y” starting position of the object. Can also be overridden by the same objects as the X coordinate property
 
 ## Bullet
 ### A simple bullet that flies across the screen at an angle.
