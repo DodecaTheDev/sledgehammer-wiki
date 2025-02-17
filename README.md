@@ -74,6 +74,7 @@ Would return `0`, `25`, or `50`.
 ---
 
 ## Default Params
+Not to be used with functions or variables.
 - **`spawn time`** `{TEXT}` - The spawn time of an enemy.
 - **`name`** `{TEXT}` - An internal name to refer to your object as.
 
