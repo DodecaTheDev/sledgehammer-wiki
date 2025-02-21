@@ -101,6 +101,30 @@ Most attacks have these but some don't
 - **`turn ratio`** `{TEXT}` - A multiplier applied to the `turn amount`. `default - 1`
 - **`sprite`** `{SPRITE}` - The sprite the instances display. `default - Square`
 
+
+### Sine Snake
+- **`spawn delay`** `{TEXT}` - The time between the instances spawning. `default - 250`
+- **`angle`** `{TEXT}` - The rotation the instances move in. `default - random(0,360)`
+- **`distance`** `{TEXT}` - The space between each instance. `default - 30`
+- **`size`** `{TEXT}` - The size of each instance. `default - 25`
+- **`turn amount`** `{TEXT}` - How much the rotation of the instance path changes. `default - 3`
+- **`instance spin`** `{TEXT}` - How much each instance rotates. `default - 6`
+- **`speed`** `{TEXT}` - How fast the sine wave progresses. `default - 5`
+- **`amplitude`** `{TEXT}` - The amplitude of the sine wave. `default - 20`
+- **`wavelength`** `{TEXT}` - The wavelength of the sine wave. `default - 20`
+- **`count`** `{TEXT}` - The amount of instances. `default - 25`
+- **`turn ratio`** `{TEXT}` - A multiplier applied to the `turn amount`. `default - 1`
+- **`sprite`** `{SPRITE}` - The sprite the instances display. `default - Square`
+
+
+### Checker Snake
+- **`spawn delay`** `{TEXT}` - The time between the instances spawning. `default - 250`
+- **`angle`** `{TEXT}` - The rotation the instances move in. `default - random(0,360)`
+- **`size`** `{TEXT}` - The size of each instance. `default - 25`
+- **`instance spin`** `{TEXT}` - How much each instance rotates. `default - 5`
+- **`count`** `{TEXT}` - The amount of instances. `default - 25`
+- **`sprite`** `{SPRITE}` - The sprite the instances display. `default - Square`
+
 ### Groups
 
 ### Enemy Group
