@@ -88,6 +88,52 @@ Most attacks have these but some don't
 ---
 ## Enemies
 
+### Bullet
+- **`angle`** `{TEXT}` - The direction the bullet points in. `default - 180`
+- **`speed`** `{TEXT}` - How fast the bullet moves. `default - 6`
+- **`size`** `{TEXT}` - The scale of the bullet. `default - 12`
+- **`rotation speed`** `{TEXT}` - How fast the bullet rotates. `default - 12`
+- **`sprite`** `{SPRITE}` - The sprite the bullet displays. `default - Square`
+- **`apparition time`** `{TEXT}` - How long the apparition lasts. `default - 500`
+- **`do sway`** `{BOOLEAN}` - Determines if the bullet shakes in a sine motion. `default - true`
+- **`apparition type`** `{DROPDOWN}` - The position of the apparition. `default - over`
+```
+  over - apparition appears over the bullet.
+  under - apparition appears under the bullet.
+  none - apparition does not appear.
+```
+
+### Beam
+- **`size`** `{TEXT}` - The width of the beam. `default - 25`
+- **`do punch`** `{BOOLEAN}` - If the beam pushes the camera on impact. `default - true`
+- **`do shake`** `{BOOLAEN}` - If the beam shakes on it's axis. `default - false`
+- **`direction`** `{DROPDOWN}` - The side of the screen that the beam comes from. `default - any`
+```
+  left
+  right
+  up
+  down
+  any horizontal - left or right
+  any vertical - up or down.
+  any - up down left or right.
+```
+
+### Wall
+- **`size`** `{TEXT}` - The width of the wall. `default - 150`
+- **`do punch`** `{BOOLEAN}` - If the wall pushes the camera on impact. `default - true`
+- **`direction`** `{DROPDOWN}` - The side of the screen that the wall comes from. `default - any`
+```
+  left
+  right
+  up
+  down
+  any horizontal - left or right
+  any vertical - up or down.
+  any - up down left or right.
+```
+
+---
+
 ### Snakes
 
 ### Snake
@@ -124,6 +170,8 @@ Most attacks have these but some don't
 - **`instance spin`** `{TEXT}` - How much each instance rotates. `default - 5`
 - **`count`** `{TEXT}` - The amount of instances. `default - 25`
 - **`sprite`** `{SPRITE}` - The sprite the instances display. `default - Square`
+
+---
 
 ### Groups
 
