@@ -212,6 +212,6 @@ Chooses between two objects to spawn.
 Spawns an object in a sequence.
 
 - **`spawn one`** `{ENEMY}` - The first enemy to spawn. `default - Beam`
-- **`spawn two`** `{ENEMY}` - The second enemy to spawn. `default - [Bullet]`
+- **`spawn two`** `{ENEMY}` - The second enemy to spawn. `default - Bullet`
 - **`delay`** `{TEXT}` - The delay between spawning *this* instance. `default - 500`
 
