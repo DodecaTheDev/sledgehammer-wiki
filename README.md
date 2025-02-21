@@ -59,7 +59,7 @@ Would return `0`, `25`, or `50`.
 ### Player Variables
 - **`plr_x`** - Returns the x position of the player.
 - **`plr_y`** - Returns the y position of the player.
-- **`plr_dir`** - Returns the angle towards the nearest player.
+- **`plr_d`** - Returns the angle towards the nearest player.
 
 ---
 
