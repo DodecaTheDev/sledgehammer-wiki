@@ -135,7 +135,11 @@ Most attacks have these but some don't
 ### Skew Beam
 - **`size`** `{TEXT}` - The width of the beam. `default - 25`
 - **`height`** `{TEXT}` - The height of the beam. `default - 50`
-- **`direction`** `{TEXT}` - Where the beam anchors to. `default - 150`
+- **`direction`** `{DROPDOWN}` - Where the beam anchors to. `default - 150`
+```
+  top
+  bottom
+```
 - **`anchored`** `{BOOLEAN}` - If the beam anchors to the given `direction`. `default - true`
 ---
 
