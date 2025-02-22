@@ -216,8 +216,6 @@ Spawns a single object multiple times.
 - **`spawn amount`** `{TEXT}` - The number of enemies to spawn (can be referred to in children using `spawn_amount`). `default - 5`
 - **`spawn delay`** `{TEXT}` - The delay between spawning instances. `default - 50`
 
----
-
 ### Parent Group
 Spawns a pair of objects multiple times.
 
@@ -226,16 +224,12 @@ Spawns a pair of objects multiple times.
 - **`spawn amount`** `{TEXT}` - The number of enemies to spawn. `default - 5`
 - **`spawn delay`** `{TEXT}` - The delay between spawning instances. `default - 50`
 
----
-
 ### Probability Spawn
 Chooses between two objects to spawn.
 
 - **`spawn one`** `{ENEMY}` - The first possible spawn. `default - Beam`
 - **`spawn two`** `{ENEMY}` - The second possible spawn. `default - Bullet`
 - **`probability`** `{TEXT}` - The chance to spawn. `default - 50`
-
----
 
 ### Sequence
 Spawns an object in a sequence.
