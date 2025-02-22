@@ -153,7 +153,7 @@ Most attacks have these but some don't
 - **`size`** `{TEXT}` - The size of each instance. `default - 25`
 - **`distance`** `{TEXT}` - The space between each instance. `default - 30`
 - **`count`** `{TEXT}` - The amount of instances. `default - 25`
-- **`turn ratio`** `{TEXT}` - A multiplier applied to the `turn amount`. `default - 1`
+- **`spiral ratio`** `{TEXT}` - A multiplier applied to the `distance` and `size`. `default - 1`
 - **`sprite`** `{SPRITE}` - The sprite the instances display. `default - Square`
 
 
@@ -168,7 +168,7 @@ Most attacks have these but some don't
 - **`amplitude`** `{TEXT}` - The amplitude of the sine wave. `default - 20`
 - **`wavelength`** `{TEXT}` - The wavelength of the sine wave. `default - 20`
 - **`count`** `{TEXT}` - The amount of instances. `default - 25`
-- **`turn ratio`** `{TEXT}` - A multiplier applied to the `turn amount`. `default - 1`
+- **`spiral ratio`** `{TEXT}` - A multiplier applied to the `distance` and `size`. `default - 1`
 - **`sprite`** `{SPRITE}` - The sprite the instances display. `default - Square`
 
 
