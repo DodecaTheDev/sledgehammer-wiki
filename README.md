@@ -141,6 +141,31 @@ Most attacks have these but some don't
   bottom
 ```
 - **`anchored`** `{BOOLEAN}` - If the beam anchors to the given `direction`. `default - true`
+
+### Bomb
+- **`size`** `{TEXT}` - The width of the bomb itself. `default - 50`
+- **`instance count`** `{TEXT}` - The amount of bullets the bomb fires.  `default - 12`
+- **`instance size`** `{TEXT}` - The scale of the bullets the bomb fires. `default - 12`
+- **`flash`** `{BOOLEAN}` - If the screen flashes when the bomb detonates. `default - true`
+- **`explosion`** `{BOOLEAN}` - If the bomb creates a small explosion particle upon detonating. `default - false` 
+- **`side`** `{DROPDOWN}` - The side of the screen the bomb comes from. `default - any`
+```
+  left
+  right
+  up
+  down
+  any - up down left or right
+```
+- **`instance speed`** `{TEXT}` - How fast the bullets move. `default - 6`
+- **`instance rotation`** `{TEXT}` - How fast the bullets rotate. `default - 6`
+- **`instance sprite`** `{SPRITE}` - The sprite the instances display. `default - Square`
+- **`apparition type`** `{DROPDOWN}` - The position of the apparition. `default - over`
+```
+  over - apparition appears over the bullet.
+  under - apparition appears under the bullet.
+  none - apparition does not appear.
+```
+
 ---
 
 ### Snakes
